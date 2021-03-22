@@ -1,9 +1,3 @@
----
-# layout: page
-title: LetsBe블로그
----
-
-
 言語[Language][日本語](index)/<a href="">[English]<- Preparing</a> -
 
 
