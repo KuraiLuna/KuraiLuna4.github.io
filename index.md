@@ -90,17 +90,6 @@ LetsBe ブログ ようこそいらっしゃい。
 <br> 
 
 <a href="">[ベック·エンド]JSPサイト</a> <-投稿準備中
-
-<br> <br>
-
-
-
-
-
-
-
-
-
 <!-- 
 <ul class="posts">
   {% for post in site.posts %}
