@@ -44,7 +44,7 @@ LetsBe ブログ ようこそいらっしゃい。
 <img src="images/pixiv.png" border="0" width="19" height="19">My Pixiv</a> &middot; <a alt="My twitter" href="https://twitter.com/Luna_0x01">
 <img src="images/twitter.png" border="0" width="19" height="19">My twitter</a>  
 
-<a alt="My resume" href="resume.md">
+<a alt="My resume" href="/resume.md">
 <img src="images/resume.png" border="0" width="19" height="19">My resume</a>  
 
 
