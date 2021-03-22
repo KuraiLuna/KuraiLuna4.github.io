@@ -30,7 +30,7 @@ LetsBe ブログ ようこそいらっしゃい。
 
 <!--* dev.vcs = 버전 관리 시스템(Version Control System) 관련 내용들입니다.-->
 
-<!--* etc = 그 외 ![텍스트](images/resume.png) [My resume](resume.md)-->
+<!--* etc = 그 외 ![텍스트](images/resume.png) [My resume](resume.md) -->
     
 リンク
 ------------
