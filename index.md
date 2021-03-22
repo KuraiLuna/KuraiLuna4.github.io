@@ -82,7 +82,7 @@ LetsBe ブログ ようこそいらっしゃい。
 私のポートフォリオリンク
 ------------
 
-­―  2018.5 <br>
+―  2018.5 <br>
   <a href="https://kurailuna.github.io/PP/index.html">[フロント·エンド]思い出のフラッシュゲーム</a>	
 <br>
 
