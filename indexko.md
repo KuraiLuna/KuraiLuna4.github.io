@@ -29,8 +29,6 @@ title: LetsBe블로그
 링크
 ------------
 
-
-<br>
 <a alt="My gitblog" href="cgiko.html">
 <img src="images/io.png" border="0" width="19" height="19">My gitblog</a>&middot; 
 <a alt="My Pixiv" href="https://www.pixiv.net/users/1112945">
@@ -53,7 +51,6 @@ title: LetsBe블로그
 	</table>
 </div>
 
-
 <br>  
 
 <h3> ―  팬 사이트  ―</h3>
@@ -62,19 +59,16 @@ title: LetsBe블로그
 <th> 알아보는중.</th>
 </table>
 </div>
-<br>
-
 
 
 나의포트폴리오
 ------------
 
-­―  2018.5 <br>
+―  2018.5 <br>
   <a href="https://kurailuna.github.io/PP/index.html">[프론트엔드]추억의 플래시게임</a>	
 <br>
 
  ― 2018.7
-<br> 
 
 <a href="">[백 엔드]JSP 사이트</a> <-올릴 예정
 
