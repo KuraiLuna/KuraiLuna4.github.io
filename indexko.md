@@ -27,7 +27,8 @@
 <img src="images/io.png" border="0" width="19" height="19">My gitblog</a>&middot; 
 <a alt="My Pixiv" href="https://www.pixiv.net/users/1112945">
 <img src="images/pixiv.png" border="0" width="19" height="19">My Pixiv</a> &middot; <a alt="My twitter" href="https://twitter.com/Luna_0x02">
-<img src="images/twitter.png" border="0" width="19" height="19">My twitter</a>
+<img src="images/twitter.png" border="0" width="19" height="19">My twitter</a>&middot;<a alt="My tumblr" href="http://luna0x01.tumblr.com">
+<img src="images/resume.png" border="0" width="19" height="19">My tumblr</a>
 
 ![텍스트](images/resume.png) [My resume](resume.md)
 <br><br>
