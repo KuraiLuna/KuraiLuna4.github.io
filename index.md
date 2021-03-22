@@ -1,3 +1,11 @@
+---
+ #layout: page
+ title: LetsBeのブログ
+---
+
+
+
+
 言語[Language][한국어](indexko)/<a href="">[English]<- Preparing</a> -
 
 
@@ -84,3 +92,19 @@ LetsBe ブログ ようこそいらっしゃい。
 <a href="">[ベック·エンド]JSPサイト</a> <-投稿準備中
 
 <br> <br>
+
+
+
+
+
+
+
+
+
+<!-- 
+<ul class="posts">
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+-->

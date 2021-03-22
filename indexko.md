@@ -1,3 +1,9 @@
+---
+# layout: page
+title: LetsBe블로그
+---
+
+
 言語[Language][日本語](index)/<a href="">[English]<- Preparing</a> -
 
 
@@ -71,3 +77,4 @@
 <br> 
 
 <a href="">[백 엔드]JSP 사이트</a> <-올릴 예정
+
