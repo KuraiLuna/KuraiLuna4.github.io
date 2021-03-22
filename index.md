@@ -47,6 +47,9 @@ LetsBe ブログ ようこそいらっしゃい。
 <a alt="My resume" href="/resume.md">
 <img src="images/resume.png" border="0" width="19" height="19">My resume</a>  
 
+<a alt="My tumblr" href="http://luna0x01.tumblr.com">
+<img src="images/resume.png" border="0" width="19" height="19">My tumblr</a>  
+
 
 <br><br>
 
