@@ -34,7 +34,7 @@ title: LetsBe블로그
 <a alt="My gitblog" href="cgiko.html">
 <img src="images/io.png" border="0" width="19" height="19">My gitblog</a>&middot; 
 <a alt="My Pixiv" href="https://www.pixiv.net/users/1112945">
-<img src="images/pixiv.png" border="0" width="19" height="19">My Pixiv</a> &middot; <a alt="My twitter" href="https://twitter.com/Luna_0x01">
+<img src="images/pixiv.png" border="0" width="19" height="19">My Pixiv</a> &middot; <a alt="My twitter" href="https://twitter.com/Luna_0x02">
 <img src="images/twitter.png" border="0" width="19" height="19">My twitter</a>
 
 ![텍스트](images/resume.png) [My resume](resume.md)
