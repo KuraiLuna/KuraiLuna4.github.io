@@ -11,11 +11,7 @@
 
 
 
-
-
-
 <p style="color:red; font-size:18px;">!注意! パパゴ翻訳機使用</p>
-
 
 
 LetsBe ブログ ようこそいらっしゃい。
@@ -28,9 +24,6 @@ LetsBe ブログ ようこそいらっしゃい。
 
 * ラテール·プレー記録 [準備中]
 
-<!--* dev.vcs = 버전 관리 시스템(Version Control System) 관련 내용들입니다.-->
-
-<!--* etc = 그 외 ![텍스트](images/resume.png) [My resume](resume.md) -->
     
 リンク
 ------------
@@ -49,9 +42,7 @@ LetsBe ブログ ようこそいらっしゃい。
 <img src="images/resume.png" border="0" width="19" height="19">My tumblr</a>&middot;<a alt="My tumblr" href="https://www.instagram.com/luna_0x01/"><img src="images/instagr.png" border="0" width="19" height="19">My instagram</a>
 
 
-
 <br><br>
-
 
 <h3> ―  公式サイト  ―</h3>
 <div>
@@ -66,7 +57,6 @@ LetsBe ブログ ようこそいらっしゃい。
 <img src="images/bugcrowd.png" border="0" width="100" height="40"></a></th>
 	</table>
 </div>
-
 <br>  
 
 <h3> ―  ファンサイト  ―</h3>
@@ -79,7 +69,6 @@ LetsBe ブログ ようこそいらっしゃい。
 
 
 <br> <br>
-
 
 私のポートフォリオリンク
 ------------
