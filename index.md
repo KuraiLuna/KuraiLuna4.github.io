@@ -1,10 +1,3 @@
----
- #layout: page
- title: LetsBeのブログ
----
-
-
-
 
 言語[Language][한국어](indexko)/<a href="">[English]<- Preparing</a> -
 
