@@ -41,7 +41,7 @@
 4. 요청 헤더
 
 <div align="center" >
-<img src="Art of Web Hacking/Chapter1/002.png.png" width="400" height="300"> <br>
+<img src="Art of Web Hacking/Chapter1/002.png" width="400" height="300"> <br>
 </div>
 <이미지출저: https://mer-bleu.tistory.com/13> <br>
 -헤더는 리스트의 형태로 여러 개 전송 가능<br>
