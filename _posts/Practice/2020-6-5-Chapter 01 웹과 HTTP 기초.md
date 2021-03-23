@@ -121,8 +121,3 @@
     - 2.2.7 X-Content-Type-Options
         <br>- MIME 스니핑을 차단하기 위해 사용하는 헤더,Content-Type에 설정된 형식으로만 처리
         <br>- ex: X-Content-Type-Options: nonsniff
-
-
-
-
-
