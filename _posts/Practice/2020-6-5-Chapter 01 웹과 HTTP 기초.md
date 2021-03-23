@@ -1,3 +1,10 @@
+---
+layout: post
+category : Practice
+
+---
+
+
 <div align="center" >
 <img src="/Art of Web Hacking/Chapter1/Chapter1.png" width="400" height="300"> <br>
 </div>
