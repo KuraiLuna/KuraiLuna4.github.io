@@ -1,7 +1,7 @@
 ---
 layout: post
 category : Practice
-
+markdown: kramdown
 ---
 
 --------------------------------------------------
