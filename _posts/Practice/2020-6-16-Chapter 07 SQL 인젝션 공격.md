@@ -25,7 +25,7 @@ category : Practice
 </div><br>
 
 <center><font size="5em" color="#0091ff">Chapter07. SQL 인젝션 공격</font> </center>
-<font size="3em" color="#0091ff">
+<font size="3em" color="#0091ff"><br>
 <center>SQL 인젝션공격 개요</center>
 <br>
 - 웹 서버 영역의 DB로 전송되는 SQL 쿼리문을 사용자가 임의로 조작할 수 있는 경우 발생
