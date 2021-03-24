@@ -187,7 +187,10 @@ admin의 surname md5 복호화 하면 password 됩니다.
 (같은 결과가 출력되는 경우에는 AND 뒤에 SLEEP함수를<br>넣어보면 됨,
 참일 경우에만 실행됨)
 
-<center><font size="4em" color="#0091ff">sqlmap 자동화공격</font></center><br>
+
+<center><font size="4em" color="#0091ff">sqlmap 자동화공격</font></center>
+
+<br>
 
 <div align="center" >
 <img src="/Art of Web Hacking/Chapter7/013.png" width="600" height="500"> <br>
