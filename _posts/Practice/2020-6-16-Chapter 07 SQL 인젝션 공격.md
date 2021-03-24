@@ -284,7 +284,7 @@ admin의 surname md5 복호화 하면 password 됩니다.
 역시 우환 폐렴 조심 하시길 바랍니다. :)<br>
 
 <div align="center" >
-<img src="/Art of Web Hacking/Chapter7/009.png" width="320" height="320"> <br>
+<img src="/Art of Web Hacking/Chapter7/024.png" width="320" height="320"> <br>
 </div>
 
 
