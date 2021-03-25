@@ -23,7 +23,7 @@ category : Practice
 <div align="center" >
 <img src="/Art of Web Hacking/Chapter9/Chapter9.png" width="400" height="300"> <br>
 </div><br>
-[![Watch the video](https://youtu.be/nN-XySrwwXc)
+
 
 <center><font size="5em" color="#0091ff">Chapter 09. XSS 공격</font> </center>
 <font size="3em" color="#0091ff">
