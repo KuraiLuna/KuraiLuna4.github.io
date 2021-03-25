@@ -72,8 +72,8 @@ category : Practice
 마냥 금융기관 같은 가짜 사이트 가 출력됩니다. ōxō<br>
 <span style="color: #FFFFFF">~~주소창에 해당 명령어를 입력했으면 이렇게 과거 추억의 유희왕 짜가 카드팩~~</span><br>
 <span style="color: #FFFFFF">~~마냥 금융기관 같은 가짜 사이트 가 출력됩니다. ōxō~~</span><br>
-<span style="color: #FFFFFF">
-<span style="color: #FFFFFF" src="https://www.youtube.com/watch?v=zR2aL4Awep0&t=284s">유희왕2 OO하는 미친해골~~(…)</span></div><br>
+
+<span style="color: #FFFFFF">유희왕2 OO하는 미친해골~~(…)</span><br>
 
 
 <br><div>
