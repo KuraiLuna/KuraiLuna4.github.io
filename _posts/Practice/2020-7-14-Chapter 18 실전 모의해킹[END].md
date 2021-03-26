@@ -20,6 +20,12 @@ category : Practice
 --------------------------------------------------
 
 
+<font size="3em" color="#0091ff"><br>
+
+예고대로 마지막은 큐라레:마법도서관<br>
+<br>
+하겠습니다.<br>
+</font><br>
 
 
 <div align="center" >
