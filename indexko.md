@@ -22,7 +22,7 @@
 
 링크
 ------------
-<img src="images/resume.png" border="0" width="19" height="19">My twitter</a>&middot;<a alt="My Naverblog" href="https://blog.naver.com/bnm0170">
+
 <a alt="My gitblog" href="cgiko.html">
 <img src="images/io.png" border="0" width="19" height="19">My gitblog</a>&middot; 
 <a alt="My Pixiv" href="https://www.pixiv.net/users/1112945">
@@ -30,6 +30,8 @@
 <img src="images/twitter.png" border="0" width="19" height="19">My twitter</a>&middot;<a alt="My tumblr" href="http://luna0x01.tumblr.com">
 <img src="images/resume.png" border="0" width="19" height="19">My tumblr</a>&middot;<a alt="My tumblr" href="https://www.instagram.com/luna_0x01/"><img src="images/instagr.png" border="0" width="19" height="19">My instagram</a>
 
+<img src="images/resume.png" border="0" width="19" height="19"><a alt="My Naverblog" href="https://blog.naver.com/bnm0170">My Naverblog</a>&middot;
+	
 ![텍스트](images/resume.png) [My resume](resume.md)
 <br><br>
 <h3> ―  공식 사이트  ―</h3>
