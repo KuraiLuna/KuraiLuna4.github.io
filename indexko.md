@@ -22,7 +22,7 @@
 
 링크
 ------------
-
+<img src="images/resume.png" border="0" width="19" height="19">My twitter</a>&middot;<a alt="My Naverblog" href="https://blog.naver.com/bnm0170">
 <a alt="My gitblog" href="cgiko.html">
 <img src="images/io.png" border="0" width="19" height="19">My gitblog</a>&middot; 
 <a alt="My Pixiv" href="https://www.pixiv.net/users/1112945">
